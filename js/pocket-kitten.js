@@ -9,6 +9,20 @@ if (navigator.onLine === false) {
   alert('Oh nos! It seems you\'re not online :(\nSorry but this app only works if you are online, please connect and try again.');
 }
 
+var images = [];
+function jsonFlickrFeed(o){
+console.log(o);
+var i=0;
+while(o.items[i]){
+  images[i] = [];
+  images[i].media = o.items[i].media.m;
+  images[i].title = o.items[i].title;
+i++;
+}
+//run once on app load
+setImage();
+}
+
 var bufferImg = document.createElement('img');
 
 var lightValue;
@@ -29,7 +43,9 @@ function setImage(lightValue) {
   var imageHeight = Math.floor(Math.random() * (200 + 1)) + 320;
 
   //Create image source url
-  var sourceUrl = urlOrigin+imageWidth+'/'+imageHeight;
+  //var sourceUrl = urlOrigin+imageWidth+'/'+imageHeight;
+  var indexSelected = getRandomInt(0, images.length);
+  var sourceUrl = images[indexSelected].media;
   //get image element
   var domElement = document.getElementById("kitten-image");
   var loader = document.getElementById("loader");
@@ -55,8 +71,6 @@ function setImage(lightValue) {
 //-------------------------------------------
 }
 
-//run once on app load
-setImage();
 //run when clicked/tapped
 document.body.addEventListener('click', function onKittenSmashed(evt) {
   setImage(lightValue);
@@ -196,3 +210,6 @@ function setInstallButton(buttonId) {
 
 setInstallButton("btnInstall");
 
+function getRandomInt(min, max) {
+  return Math.floor(Math.random() * (max - min + 1) + min);
+}
