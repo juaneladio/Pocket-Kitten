@@ -64,7 +64,7 @@ function setImage(lightValue) {
 
 
   if (navigator.vibrate) {
-    navigator.vibrate([0,300,200]);
+    navigator.vibrate(200); // vibrate for just 200ms
   }
 
 
