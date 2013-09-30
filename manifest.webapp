@@ -20,5 +20,6 @@
     }
   },
   "default_locale": "en",
-  "orientation": "landscape-primary"
+  "orientation": "landscape-primary",
+  "fullscreen": "true"
 }
