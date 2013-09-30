@@ -1,6 +1,6 @@
 {
   "name": "PaperToys",
-  "description": "Pictures from Firefox PaperToys retrieved from Flickr",
+  "description": "Pictures of Firefox PaperToys taken in Lima, Peru and retrieved from Flickr. Based on Pocket-Kitten and inspired by PocketKUMI.",
   "version": "1.0.0",
   "launch_path": "/Pocket-Kitten/index.html",
   "developer": {
@@ -16,7 +16,7 @@
   "locales": {
     "es": {
       "name": "PaperToys",
-      "description": "Fotos de Firefox PaperToys obtenidas de Flickr."
+      "description": "Fotos de Firefox PaperToys tomadas en Lima, Perú y obtenidas de Flickr. Basado en Pocket-Kitten e inspirado en PocketKUMI."
     }
   },
   "default_locale": "en",
