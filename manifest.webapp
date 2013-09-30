@@ -1,14 +1,24 @@
 {
-  "name": "Pocket Kitten",
-  "description": "Calm yourself with a kitten",
+  "name": "PaperToys",
+  "description": "Pictures from Firefox PaperToys retrieved from Flickr",
+  "version": "1.0.0",
   "launch_path": "/Pocket-Kitten/index.html",
   "developer": {
-    "name": "Ruth John",
-    "url": "https://github.com/rumyra"
+    "name": "Juan Eladio Sánchez Rosas",
+    "url": "https://github.com/juaneladio"
   },
   "icons": {
-    "128": "http://rumyra.github.io/Pocket-Kitten/style/icons/pocket-kitten@2x.png",
-    "64": "http://rumyra.github.io/Pocket-Kitten/style/icons/pocket-kitten.png"
+    "128": "/Pocket-Kitten/style/icons/icon_128.png",
+    "120": "/Pocket-Kitten/style/icons/icon_128.png",
+    "64": "/Pocket-Kitten/style/icons/icon_64.png",
+    "60": "/Pocket-Kitten/style/icons/icon_60.png"
   },
-  "orientation": "portrait-primary"
+  "locales": {
+    "es": {
+      "name": "PaperToys",
+      "description": "Fotos de Firefox PaperToys obtenidas de Flickr."
+    }
+  },
+  "default_locale": "en",
+  "orientation": "landscape-primary"
 }
