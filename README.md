@@ -7,6 +7,10 @@ This app shows pictures of PaperToys in some places in Peru, following the idea 
 
 [View it in action here](http://juaneladio.github.io/Pocket-Kitten/index.html)
 
+How I did this project? [Pocket-Kitten2: revamping a Firefox OS app](http://juaneladio.wordpress.com/2013/09/30/pocket-kitten2/)
+
+¿Cómo hice este proyecto? (En Español) [Pocket-Kitten2: mejorando una app de Firefox OS](http://juaneladio.wordpress.com/2013/09/30/pocket-kitten2-es/)
+
 Pocket-Kitten
 =============
 
